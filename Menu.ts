@@ -15,11 +15,11 @@ export function main() {
         console.log("                                                     ");
         console.log("*****************************************************");
         console.log("                                                     ");
-        console.log("            1 - Criar Conta                          ");
-        console.log("            2 - Listar todas as Contas               ");
-        console.log("            3 - Buscar Conta por Numero              ");
-        console.log("            4 - Atualizar Dados da Conta             ");
-        console.log("            5 - Apagar Conta                         ");
+        console.log("            1 - Cadastrar livro                          ");
+        console.log("            2 - Listar todos os livros               ");
+        console.log("            3 - Buscar Livro por Numero              ");
+        console.log("            4 - Atualizar Dados do Livro             ");
+        console.log("            5 - Apagar Livro do Banco de Dados        ");
         console.log("            6 - Sair                                 ");
         console.log("                                                     ");
         console.log("*****************************************************");
@@ -40,27 +40,27 @@ export function main() {
 
         switch (opcao) {
             case 1:
-                console.log(colors.fg.redstrong, "\n\nCriar Conta na Livraria\n\n", colors.reset);
+                console.log(colors.fg.redstrong, "\n\nCriar Cadastrar Livro\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 2:
-                console.log(colors.fg.redstrong, "\n\nListar todas as Contas\n\n", colors.reset);
+                console.log(colors.fg.redstrong, "\n\nListar todos os livros\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 3:
-                console.log(colors.fg.whitestrong, "\n\nConsultar dados da Conta - por número\n\n", colors.reset);
+                console.log(colors.fg.whitestrong, "\n\nConsultar dados do Livro - por número\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 4:
-                console.log(colors.fg.whitestrong, "\n\nAtualizar dados da Conta\n\n", colors.reset);
+                console.log(colors.fg.whitestrong, "\n\nAtualizar dados do Livro\n\n", colors.reset);
 
                 keyPress()
                 break;
             case 5:
-                console.log(colors.fg.whitestrong, "\n\nApagar uma Conta\n\n", colors.reset);
+                console.log(colors.fg.whitestrong, "\n\nApagar um Livro do Banco de dados\n\n", colors.reset);
 
                 keyPress()
                 break;
