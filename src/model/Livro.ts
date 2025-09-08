@@ -23,7 +23,7 @@ export abstract class Livro{
     public set numero(numero: number) {
         this._numero = numero;
     }
-    
+
     public get nome(): string {
         return this._nome;
     }
@@ -71,7 +71,7 @@ export abstract class Livro{
         }
 
         console.log("\n\n*****************************************************");
-        console.log("Dados da Conta:");
+        console.log("Dados do Livro:");
         console.log("*****************************************************");
         console.log("Nome do Livro: " + this._nome);
         console.log("Ano de Publicacao: " + this._ano);
